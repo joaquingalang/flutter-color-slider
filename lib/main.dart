@@ -19,17 +19,17 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xFF121212),
+        backgroundColor: const Color(0xFF121212),
         appBar: AppBar(
-          title: Padding(
-            padding: const EdgeInsets.all(16.0),
+          title: const Padding(
+            padding: EdgeInsets.all(16.0),
             child: Text(
               'Color Slider',
               style: TextStyle(fontSize: 36, color: Colors.white),
             ),
           ),
           centerTitle: true,
-          backgroundColor: Color(0xFF121212),
+          backgroundColor: const Color(0xFF121212),
         ),
         body: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
               Stack(
                 alignment: Alignment.center,
                 children: [
-                  CircleAvatar(
+                  const CircleAvatar(
                     radius: 110,
                     backgroundColor: Color(0xFF282828),
                   ),
@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ],
               ),
-              SizedBox(height: 50),
+              const SizedBox(height: 50),
               Slider(
                 value: red.toDouble(),
                 max: 255,
