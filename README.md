@@ -1,16 +1,7 @@
-# color_slider
+# Flutter Color Slider 🖌️
 
-A new Flutter project.
+Experimenting with sliders in Flutter. I thought it would be interesting to set up three independent sliders each manipulating the Red, Green, and Blue for a single RGB Color. This was a simple 15-minute project.
 
-## Getting Started
+<img height=300 src="https://github.com/user-attachments/assets/7667ff86-7962-4935-bc3f-1c7f1bdea194">
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img height=300 src="https://github.com/user-attachments/assets/31a29187-be09-4ec1-ba81-13395d2bed44">
